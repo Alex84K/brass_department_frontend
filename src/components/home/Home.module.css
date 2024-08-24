@@ -1,0 +1,22 @@
+.bg_whitebl {
+    background-color: #457B9D;
+}
+
+.btn_orange {
+    background-color: #FFAF00;
+    color: #fff;
+    max-width: 200px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.info_box {
+    border: 2px solid #003B69;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px #457B9D;
+    padding: 50px;
+    cursor: pointer;
+    text-align: center;
+}

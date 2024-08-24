@@ -1,0 +1,140 @@
+.imgCabinet {
+    width: 150px;
+    height: 150px;
+}
+
+.logincontainer {
+    border-radius: 15px;
+    max-width: 42rem;
+    padding: 50px ;
+}
+
+.txtcenter {
+    text-align: center;
+}
+
+.checkbox {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.infoCreatedmoduls {
+    border: 1px solid darkgreen;
+    background-color: #F1F1F5;
+    border-radius: 10px;
+}
+
+.content {
+    box-sizing: border-box;
+    min-height: 500px;
+    padding-bottom: 90px;
+}
+
+.iconCard {
+    width: 100px;
+    height: 100px;
+}
+
+.infoBox {
+    border: 2px solid #024959;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #F1F1F5;
+}
+
+.bg_whitebl {
+    background-color: #457B9D;
+  }
+
+@media screen and (min-width: 1921px) {
+    .bg, #EditProfBg {
+        min-height: 84rem;
+    }
+
+    .container {
+        padding-top: 10rem;
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+
+    .iconCard {
+        width: 180px;
+        height: 180px;
+    }
+
+}
+
+
+.bg {
+    width: 30%;
+}
+
+.account {
+    padding: 3%;
+}
+
+.accountMobi {
+    display: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.cardsDesktop {
+    display: flex;
+    flex-direction: row;
+}
+
+.cursor_p {
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .bg {
+        display: none;
+    }
+
+    .accountMobi {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .container {
+        padding: 2px;
+    }
+
+    .logincontainer {
+        padding: 40px 20px;
+        margin: 10px;
+    }
+
+        .checkbox {
+            width: 1rem;
+            height: 1rem;
+        }
+
+    .account {
+        display: none;
+    }
+
+    .cardsMobi {
+        background-color: #F8F7F5;
+    }
+
+    .cardsDesktop {
+        display: none;
+    }
+
+    .mobiIn {
+        margin-left: 20px;
+    }
+
+    .cardA {
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin: 10px;
+    }
+
+}
+

@@ -1,0 +1,94 @@
+.bg_whitebl {
+    background-color: #457B9D;
+}
+
+.form_out{
+    height: 100vh;
+}
+
+.form_in{
+    background-color: #024959;
+    border: 2px solid #457B9D;
+    border-radius: 10px;
+}
+
+.container {
+    padding: 5rem;
+}
+
+.logincontainer {
+    border-radius: 10px;
+    padding: 3rem !important;
+}
+
+.btnGreen {
+    background-color: #4E7B79;
+    cursor: pointer;
+}
+
+#checkbox {
+    width: 2rem;
+    height: 2rem;
+}
+
+
+.showpass {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+.errorMessage {
+    font-size: 14px;
+}
+
+@keyframes shake {
+    0% {
+        margin-left: 0rem;
+    }
+
+    25% {
+        margin-left: 0.25rem;
+    }
+
+    75% {
+        margin-left: -0.25rem;
+    }
+
+    100% {
+        margin-left: 0rem;
+    }
+}
+
+.errorShake {
+    animation: shake 0.2s ease-in-out 0s 2;
+    box-shadow: 0 0 0.1rem #ff0000;
+}
+
+@media (max-width: 680px) {
+    .container {
+        padding: 20px 10px;
+    }
+
+    .logincontainer {
+        width: 100%;
+        padding: 1.5rem !important;
+    }
+}
+
+
+@media screen and (min-width: 1921px) {
+    .bg {
+        min-height: 84rem;
+    }
+
+    .container {
+        padding-top: 10rem;
+        margin: auto;
+        max-width: 120rem;
+    }
+
+    .logincontainer {
+        padding: 40px;
+    }
+}

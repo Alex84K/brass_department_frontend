@@ -1,0 +1,40 @@
+.img {
+    max-width: 200px;
+    max-height: 180px;
+    border-radius: 50%;
+}
+
+.bg_457B9D{
+    background-color: #457B9D;
+}
+
+.container_in {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.form_box {
+    background-color: #fff;
+    border: 2px solid #024959;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.displHendleNone {
+    width: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+}
+
+@media screen and (max-width: 767px) {
+    .container_in {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .form_box {
+        padding: 10px;
+    }
+}

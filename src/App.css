@@ -1,0 +1,17 @@
+.bg_dark {
+  background-color: #024959;
+}
+
+.bg_whitebl {
+  background-color: #457B9D;
+}
+
+.txt_white {
+  color: #fff;
+}
+
+.btn_orange {
+  background-color: #FFAF00;
+  padding: 10px, 20px;
+  color: #fff;
+}

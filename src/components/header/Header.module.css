@@ -1,0 +1,15 @@
+.bg_dark {
+    background-color: #024959;
+}
+
+.d_none_mobi {
+    display: flex;
+}
+
+@media screen {
+    @media screen and (max-width: 900px) {
+        .d_none_mobi {
+          display: none;
+        }
+      }
+}
